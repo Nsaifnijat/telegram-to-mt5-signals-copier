@@ -5,11 +5,12 @@ import csv
 #from functools import reduce
 import numpy as np
 import sys
+import pandas as pd
 import MetaTrader5 as mt5
 from PyQt5.uic import loadUi
 import asyncio
 from PyQt5.QtWidgets import QDialog, QApplication,QMainWindow
-from telethon import TelegramClient, events, client, utils
+from telethon import TelegramClient, events,sync, client, utils
 import phonenumbers
 from PyQt5.QtCore import QThread, QObject
 import sqlite3
@@ -18,7 +19,7 @@ import config
 api_id = config.api_id
 api_hash = config.api_hash
 
-client = TelegramClient('gui/session', api_id, api_hash)    
+client = TelegramClient('gui/telegram', api_id, api_hash)    
 client.connect()
 conn=sqlite3.connect('gui/employee.db')
 c=conn.cursor()
@@ -147,7 +148,7 @@ class start_copying(QObject):
         api_hash = config.api_hash
         conn=sqlite3.connect('gui/employee.db')
         c=conn.cursor()
-        async with TelegramClient('gui/session', api_id, api_hash) as client:
+        async with TelegramClient('gui/telegram', api_id, api_hash) as client:
             username= await client.get_me()
             print(utils.get_display_name(username))
             with open('gui/alljang.csv', "r") as f:
