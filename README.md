@@ -128,13 +128,11 @@ Contributions to this project are welcome. Please follow these steps:
 
 Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
 
-## License
 
-This project uses the following license: [License Name].
 
 ## Contact
 
-If you want to contact me, you can reach me at `<aithequant@gmail.com>`.
+If you want to contact me, you can reach me at `aithequant@gmail.com`.
 
 ## Disclaimer
 
