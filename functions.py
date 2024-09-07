@@ -1,6 +1,5 @@
 
 import re
-import pandas as pd
 import MetaTrader5 as mt
 #mt.initialize()
 import time
