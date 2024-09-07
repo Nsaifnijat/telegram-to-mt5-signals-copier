@@ -1,0 +1,3573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>982</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+background-color:#b5d1e2
+}</string>
+   </property>
+   <widget class="QWidget" name="menubuttons" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>151</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#043e7D;
+border-radius: 14px;
+border:1px solid '#0fffaf';
+</string>
+    </property>
+    <widget class="QPushButton" name="homebtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>Home</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="channelsbtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>Add Channels</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="mt5btn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>Add MT5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="magicbtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>Magic Keys</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="defaultsbtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>220</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>Management Defaults</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="mtanalyticsbtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>MT5 Analytics</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 15pt &quot;OCR A Extended&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Settings</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>118</width>
+       <height>3</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="trailingbtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>290</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+     </property>
+     <property name="text">
+      <string>Trailing/TPs</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>50</y>
+      <width>781</width>
+      <height>550</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#home{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}
+
+#stop_loss{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="channels">
+     <property name="styleSheet">
+      <string notr="true">#channels{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}</string>
+     </property>
+     <widget class="QPushButton" name="addbtn">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>210</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+font: 10pt &quot;MV Boli&quot;;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>---&gt; ADD</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="removebtn">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>270</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+font: 10pt &quot;MV Boli&quot;;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>REMOVE &lt;---</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="list1">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>50</y>
+        <width>256</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#list1{
+background-color: rgb(170, 170, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+
+border:2px solid '#14bbbe';}</string>
+      </property>
+      <property name="tabKeyNavigation">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::ExtendedSelection</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="list2">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>50</y>
+        <width>256</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#list2{
+background-color: rgb(170, 170, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::ExtendedSelection</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 11pt &quot;MV Boli&quot;;
+border-radius:10px;
+color: rgb(255, 255, 255);
+background-color:#043e7D;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Your Telegram Channels/Groups</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>10</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 11pt &quot;MV Boli&quot;;
+border-radius:10px;
+color: rgb(255, 255, 255);
+background-color:#043e7D;
+</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string>Added Channels/Groups For Copy</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="savebtn">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>320</y>
+        <width>101</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+font: 10pt &quot;MV Boli&quot;;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Save &lt;---</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="error">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>70</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font:  8pt &quot;MV Boli&quot;;
+color: rgb(255, 0, 0);
+border-radius:10px;
+background-color: rgba(255, 170, 255, 0);
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="mt">
+     <property name="styleSheet">
+      <string notr="true">#mt{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}</string>
+     </property>
+     <widget class="QWidget" name="mt5widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>53</x>
+        <y>50</y>
+        <width>251</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#mt5widget{
+background-color:#043e7D;
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QLineEdit" name="mtserver">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid '#14bbbe';
+background-color:rgba(0,0,0,0);
+padding:0px 8px;
+
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Account Server</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>56</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Server:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mtid">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid '#14bbbe';
+background-color:rgba(0,0,0,0);
+padding:0px 8px;
+
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>MT5 ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>110</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mtpassword">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>180</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid '#14bbbe';
+background-color:rgba(0,0,0,0);
+padding:0px 8px;
+
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>MT5 Password</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mtsuffix">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>230</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid '#14bbbe';
+background-color:rgba(0,0,0,0);
+padding:0px 8px;
+
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Account Symbols Suffix</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>210</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Suffix(Optional):</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="mtaddbtn">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>350</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)
+} 
+
+*:hover{
+                        background: '#aaaaff';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>10</y>
+         <width>211</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Add Your MT5 Credentials!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>-280</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MV Boli&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Add Your MT5 Credentials</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mtsymbols">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>280</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:10px;
+font: 9pt &quot;MS Shell Dlg 2&quot;;
+border: 2px solid '#14bbbe';
+background-color:rgba(0,0,0,0);
+padding:0px 8px;
+
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Broker Specific Symbols</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>260</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>10</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Broker Symbols(Optional):</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="serverError">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>100</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+color:'red';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="idError">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>150</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+color:'red';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="passError">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>200</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+color:'red';
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QListWidget" name="mtlist">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>51</y>
+        <width>256</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#mtlist{
+border-radius:20px;
+padding:40px 5px 40px 5px;
+border:10px,solid, '#aafffa';
+background-color:#b5d1e2;
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="mtshow">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>420</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)
+} 
+
+*:hover{
+                        background: '#aaaaff';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Show</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="mtlogin">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>421</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)
+} 
+
+*:hover{
+                        background: '#aaaaff';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="mtdelete">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>420</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)
+} 
+
+*:hover{
+                        background: '#aaaaff';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>60</y>
+        <width>211</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+</string>
+      </property>
+      <property name="text">
+       <string>Saved MT5 Accounts For Copy!</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="defaults">
+     <property name="styleSheet">
+      <string notr="true">#defaults{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}</string>
+     </property>
+     <widget class="QWidget" name="defaultwidget3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>241</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#defaultwidget3{
+background-color:rgb(217, 220, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Forex Pairs Defaults!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>56</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Volume:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fxvolume">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fxslippage">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>90</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>86</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Slippage:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fxsl">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>120</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>115</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Max SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="indexsl">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>260</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>255</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Max SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="indexvolume">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>200</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>196</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Volume:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Indices Defaults!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>226</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Slippage:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="indexslippage">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>230</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>400</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Max SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="comslippage">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>375</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="comvolume">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>345</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>295</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Commodities Defaults!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>371</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Slippage:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>341</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Volume:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="comsl">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>405</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="defaultsavebtn">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>450</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="defaultwidget3_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>20</y>
+        <width>471</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#defaultwidget3_2{
+background-color:rgb(217, 220, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_25">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>251</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Symbol Specific Preferences!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>40</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Symbol:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="symbolentry">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>e.g. EURUSD</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="symbolsavebtn">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>80</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="symbolvolume">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>40</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>0.01</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>40</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Volume:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="symbolslippage">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>70</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>0.01</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Slippage:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="defaultwidget3_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>160</y>
+        <width>471</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#defaultwidget3_3{
+background-color:rgb(217, 220, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_26">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>251</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Symbol Exclusion!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Symbol:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="exentry">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>331</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>e.g. EURUSD,GBPUSD,XAUUSD...</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="exsavebtn">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>100</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="excom">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8 pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Commodity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_42">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Check one of the following:</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="exforex">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>71</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8 pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Forex</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="exindex">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>90</y>
+         <width>71</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8 pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Index</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="defaultwidget3_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>320</y>
+        <width>471</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#defaultwidget3_4{
+background-color:rgb(217, 220, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_27">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>251</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Symbol Inclusion!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 12pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Symbol:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="inentry">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>40</y>
+         <width>331</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>e.g. EURUSD,GBPUSD,XAUUSD...</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="insavebtn">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>100</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="incom">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>90</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8 pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Commodity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Check one of the following:</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="inforex">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>90</y>
+         <width>71</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8 pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Forex</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="inindex">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>90</y>
+         <width>71</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8 pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Index</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="magickeys">
+     <property name="styleSheet">
+      <string notr="true">#magickeys{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}</string>
+     </property>
+     <widget class="QWidget" name="magicwidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>711</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#magicwidget{
+background-color:#043e7D;
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:rgb(217, 220, 255);
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;---- Opened Trades</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>56</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Edit TP:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="tpentry">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>59</y>
+         <width>113</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:2px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="slentry">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>89</y>
+         <width>113</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:2px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>86</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Edit SL:</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="tradeslist">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>461</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="cursor" stdset="0">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#tradeslist{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+padding:10px;
+}</string>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::ExtendedSelection</enum>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="profitentry">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>149</y>
+         <width>113</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:2px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>146</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Profit/Loss:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>116</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Volume:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="volentry">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>119</y>
+         <width>113</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:2px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="curentry">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>179</y>
+         <width>113</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:2px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>176</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Current Prices:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="closeAll">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>380</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close All</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="closeHalf">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>380</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close Half</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close_ten">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>380</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close 0.1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close_fifty">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>380</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close 0.5</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="closeLot">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>380</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close 1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close_customlot">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>410</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close Custom</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="breakeven">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>410</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Breakeven</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close_one">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>410</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close 0.01</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="customEntry">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>410</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:2px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="showtrades">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>340</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Show Trades</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="refreshtrades">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>340</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Refresh Trades</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="editTPsl">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>210</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Edit TP/SL</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="saveTPsl">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>210</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close_five">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>380</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Close 0.05</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="magic_errors">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>280</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="home">
+     <widget class="QPushButton" name="startbtn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>60</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Start Copying</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stopbtn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>90</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Stop Copying</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="refreshbtn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>120</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Refresh</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="analytica">
+     <widget class="QWidget" name="centerwidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>781</width>
+        <height>550</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#centerwidget{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+}</string>
+      </property>
+      <widget class="QListWidget" name="analyticslist">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>511</width>
+         <height>531</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#analyticslist{
+background-color:rgb(217, 220, 255);
+border-radius:10px;
+padding:10px;
+border:2px solid lightred;
+
+}</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="showmtbtn">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>300</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Show Analysis</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>210</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Start Date:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>250</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Upto Date:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>170</y>
+         <width>231</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Choose the date to show analysis for!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>50</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>The analysis is shown for the Account which</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>70</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string> is currently open in your MT5 Terminal!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>90</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>So, if you want to see analytics for any other</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>110</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>account, please login to your specific account </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>130</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>from Add MT5 page and try Show Analysis!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>30</y>
+         <width>241</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>NOTE:</string>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="uptodate">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>250</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="date">
+        <date>
+         <year>2022</year>
+         <month>3</month>
+         <day>15</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QDateTimeEdit" name="startdate">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>210</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2022</year>
+         <month>1</month>
+         <day>1</day>
+        </datetime>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="stop_loss">
+     <widget class="QWidget" name="setstop" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>241</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#setstop{
+background-color:rgb(217, 220, 255);
+border-radius:20px;
+padding:20px;
+border:10px,solid, '#aafffa';
+font: 10pt &quot;MV Boli&quot;;
+border:2px solid '#14bbbe';}
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Forex Pairs Defaults!</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Default SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fx_default">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>50</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fx_trailer">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Trailingl Pips:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Indices Defaults!</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>325</y>
+         <width>221</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">*{
+border-radius: 10px;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color:#14bbbe;
+} 
+</string>
+       </property>
+       <property name="text">
+        <string>Commodities Defaults!</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="trailing_save">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>490</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>240</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Trailingl Pips:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ind_trailer">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>240</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Default SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ind_default">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>210</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_44">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>420</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 9pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Max Price Distance SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="com_default">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>360</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>390</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Trailingl Pips:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="com_trailer">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>390</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_46">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>360</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Default SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="com_distance">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>420</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_47">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>270</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 9pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Max Price Distance SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ind_distance">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>270</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 9pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Max Price Distance SL:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fx_distance">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>110</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ind_cus">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>300</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="com_cus">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>450</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fx_cus">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>140</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_51">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>140</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Trailing Cushion(optional):</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>450</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Trailing Cushion(optional):</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_96">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>300</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">	font: 8pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+       </property>
+       <property name="text">
+        <string>Trailing Cushion(optional):</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="start_trailing">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>110</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
+
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+      </property>
+      <property name="text">
+       <string>Start Trailing</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radiotrailer">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>60</y>
+        <width>201</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+      </property>
+      <property name="text">
+       <string>Trail by Settings on this Page!</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radiotp">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>80</y>
+        <width>171</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+      </property>
+      <property name="text">
+       <string>Trail by TPs</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_95">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>10</y>
+        <width>431</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">	font: 10pt &quot;MS Shell Dlg 2&quot;;
+color:'#14bbbe';
+</string>
+      </property>
+      <property name="text">
+       <string>NOTE: The inputs are in pips! Use only Numbers.</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6"/>
+   </widget>
+   <widget class="QPushButton" name="logoutbtn">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>10</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+    </property>
+    <property name="text">
+     <string>Log Out &gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="usernamebtn">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>10</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+*{
+border-radius: 10px;
+background-color:#14bbbe;
+} 
+*:hover{
+                        background: '#aafffa';
+                    }</string>
+    </property>
+    <property name="text">
+     <string>Telegram Username:  Amar</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
