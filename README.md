@@ -106,7 +106,7 @@ python main.py
 - Ensure you have the necessary permissions to copy and use signals from the Telegram channels you're monitoring.
 - Always practice responsible trading and be aware of the risks involved in forex trading.
 - Familiarize yourself with all features, especially the Magic Keys and trailing stop loss, before using them in live trading.
-
+- Display Note: This application was developed in early 2022 using an older version of PyQt5. Due to updates in PyQt5 since then, you may notice some display issues such as misaligned designs, oversized text, or other visual inconsistencies. These do not affect the core functionality of the application but may impact its appearance.
 ## Algorithmic Trading in MT5
 
 To use this tool effectively:
