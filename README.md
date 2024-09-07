@@ -134,7 +134,7 @@ This project uses the following license: [License Name].
 
 ## Contact
 
-If you want to contact me, you can reach me at `<your_email@example.com>`.
+If you want to contact me, you can reach me at `<aithequant@gmail.com>`.
 
 ## Disclaimer
 
